@@ -1,0 +1,26 @@
+.container {
+    text-align: center;
+    width: 70%;
+    height: 80vh;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    box-shadow:  0px 0px  0px 20px rgb(171, 163, 163);
+    /* border: 20px solid rgb(239, 237, 236); */
+    background-color: antiquewhite;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    /* grid-column-gap: 90px;
+    grid-row-gap: 90px; */
+  }
+  
+  .box {
+    background-color:white;
+    height: 67px;
+    border: 1px solid rgb(235, 209, 107);
+    /* width: 20px; */
+  }
+  .w-box{
+    background-color: rgb(10, 34, 34);
+  }
